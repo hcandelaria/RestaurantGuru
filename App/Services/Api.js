@@ -2,7 +2,7 @@
 import apisauce from 'apisauce'
 
 // our "constructor"
-const create = (baseURL = 'https://api.github.com/') => {
+const create = (baseURL = 'https://developers.zomato.com/api/v2.1/') => {
   // ------
   // STEP 1
   // ------
@@ -14,7 +14,8 @@ const create = (baseURL = 'https://api.github.com/') => {
     baseURL,
     // here are some default headers
     headers: {
-      'Cache-Control': 'no-cache'
+      'Cache-Control': 'no-cache',
+      'user-key': '98486952e57208d04c9ed1fd6c9bce36',
     },
     // 10 second timeout...
     timeout: 10000
@@ -34,10 +35,17 @@ const create = (baseURL = 'https://api.github.com/') => {
   // Since we can't hide from that, we embrace it by getting out of the
   // way at this level.
   //
-  const getRoot = () => api.get('')
-  const getRate = () => api.get('rate_limit')
-  const getUser = (username) => api.get('search/users', {q: username})
-
+  const getCategories = () => api.get('categories')
+  const getRestaurants = (payload) => { 
+    return api.get('search?&entity_type=city',{ entity_id: payload.city_id, category: payload.category })
+  }
+  const getRestaurantsByQuery = (payload) => {
+    return api.get('search?&entity_type=city',{ entity_id: payload.city_id, category: payload.category, q: payload.searchQuery })
+  }
+  const getCities = (payload) => {
+    return api.get('cities?',{ q: payload.query})
+  }
+//
   // ------
   // STEP 3
   // ------
@@ -52,9 +60,10 @@ const create = (baseURL = 'https://api.github.com/') => {
   //
   return {
     // a list of the API functions from step 2
-    getRoot,
-    getRate,
-    getUser
+    getCategories,
+    getRestaurants,
+    getRestaurantsByQuery,
+    getCities
   }
 }
 
