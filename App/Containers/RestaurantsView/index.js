@@ -40,7 +40,7 @@ class RestaurantsView extends Component {
                   />
               </ScrollView>
             :
-              <Text style={{textAlign: 'center'}>No matches found...</Text>
+              <Text style={{textAlign: 'center'}}>No matches found...</Text>
         }
       </Container>
     );
