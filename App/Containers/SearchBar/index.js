@@ -1,3 +1,4 @@
+//flow
 import React, { Component } from 'react'
 import { Item, Icon, Input, Text } from 'native-base'
 import { ActivityIndicator } from 'react-native'

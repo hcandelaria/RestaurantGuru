@@ -1,3 +1,4 @@
+//flow
 import React, { Component } from 'react'
 import { Container, Content, Text, Card, CardItem, Left } from 'native-base'
 import { connect } from 'react-redux'

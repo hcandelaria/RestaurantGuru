@@ -21,7 +21,9 @@
     "lint": "standard --verbose | snazzy",
     "lintdiff": "git diff --name-only --cached --relative | grep '\\.js$' | xargs standard | snazzy",
     "fixcode": "standard --fix",
-    "git-hook": "npm run lint -s && npm run test -s"
+    "git-hook": "npm run lint -s && npm run test -s",
+    "build": "babel App/ -d lib/",
+    "prepublish": "yarn run build"
   },
   "dependencies": {
     "apisauce": "^0.14.2",
@@ -51,7 +53,9 @@
     "seamless-immutable": "^7.1.4"
   },
   "devDependencies": {
+    "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
+    "@babel/preset-flow": "^7.0.0",
     "@storybook/addon-storyshots": "^3.4.0",
     "@storybook/addons": "^3.4.0",
     "@storybook/channels": "^3.4.0",
@@ -69,6 +73,7 @@
     "eslint-plugin-import": "^2.17.1",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.12.4",
+    "flow-bin": "^0.97.0",
     "ignite-andross": "^3.0.4",
     "ignite-animatable": "1.0.2",
     "ignite-dev-screens": "2.4.3",

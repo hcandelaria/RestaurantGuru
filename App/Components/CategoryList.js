@@ -1,3 +1,4 @@
+//flow
 import React, { Component } from 'react'
 import { Content, Text, Card, CardItem, Body, Button } from 'native-base'
 

@@ -1,3 +1,4 @@
+//flow
 import React, { Component } from 'react'
 import { Icon, Content, Form, Item, Picker } from 'native-base'
 

@@ -1,3 +1,4 @@
+//flow
 import React, { Component } from 'react'
 import { Footer, FooterTab, Button, Text } from 'native-base'
 

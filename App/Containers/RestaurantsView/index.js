@@ -1,3 +1,4 @@
+//flow
 import React, { Component } from 'react'
 import { Container, Text } from 'native-base'
 import { connect } from 'react-redux'

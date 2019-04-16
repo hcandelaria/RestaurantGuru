@@ -1,3 +1,4 @@
+//flow
 import '../Config'
 import DebugConfig from '../Config/DebugConfig'
 import React, { Component } from 'react'

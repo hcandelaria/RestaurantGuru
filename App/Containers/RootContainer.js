@@ -1,3 +1,4 @@
+//flow
 import React, { Component } from 'react'
 import { View, StatusBar } from 'react-native'
 import ReduxNavigation from '../Navigation/ReduxNavigation'
