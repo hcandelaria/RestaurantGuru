@@ -52,7 +52,7 @@ class CategoriesView extends Component {
           :
             <ScrollView>
               <CategoryList 
-                category={this.props.categories}
+                categories={this.props.categories}
                 handleOnPress={this.handleOnPress}
               />
             </ScrollView>

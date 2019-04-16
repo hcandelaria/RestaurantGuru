@@ -10,7 +10,7 @@ export default class CategoryList extends Component {
     return (
         <Content>
         {   
-          this.props.category.map( (category) =>
+          this.props.categories.map( (category) =>
               <Button full large light
                 key={category.categories.id}
                 onPress={this.props.handleOnPress.bind(this, category.categories.id)} >
