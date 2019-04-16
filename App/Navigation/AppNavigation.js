@@ -16,12 +16,23 @@ const PrimaryNav = createStackNavigator({
   RestaurantDetailsView: { screen: RestaurantDetailsView },
   StorybookUI: { screen: StorybookUI }
 }, {
+  /*
+   * To Run App
+   * Uncomment the following lines
+   */
   initialRouteName: 'LaunchScreen',
-  // initialRouteName: 'StorybookUI',
-  // Default config for all screens
   defaultNavigationOptions: {
     header: ({navigation}) => <HeaderNavBar style={styles} navigation={navigation} />
   }
+  /*
+   * For Testing using storybook
+   * Uncomment the folloing lines
+   */
+  // initialRouteName: 'StorybookUI',
+  // headerMode: 'none',
+  // navigationOptions: {
+  //   headerVisible: false,
+  // }
 })
 
 export default createAppContainer(PrimaryNav)
