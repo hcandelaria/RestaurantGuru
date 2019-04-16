@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
-import { Container, Text } from 'native-base';
+import React, { Component } from 'react'
+import { Container, Text } from 'native-base'
 import { connect } from 'react-redux'
 
-import { ScrollView } from 'react-native-gesture-handler';
+import { ScrollView } from 'react-native-gesture-handler'
 import Loading from '../../Components/Loading'
 import RestaurantsList from '../../Components/RestaurantsList'
 import SearchBar from '../SearchBar'
@@ -11,46 +11,43 @@ class RestaurantsView extends Component {
   /**
    * Class constructor.
    */
-  constructor(props, context){
-    super(props,context);
+  constructor (props, context) {
+    super(props, context)
 
-    this.handleOnPress = this.handleOnPress.bind(this);
+    this.handleOnPress = this.handleOnPress.bind(this)
   }
-  
-  handleOnPress(restaurant){
+
+  handleOnPress (restaurant) {
     this.props.navigation.navigate('RestaurantDetailsView', restaurant)
   }
-  componentDidMount(){
+  componentDidMount () {
   }
-  render() {
-
+  render () {
     return (
       <Container>
         <Text style={{textAlign: 'center'}}>Choose a restaurant</Text>
-        <SearchBar/>
+        <SearchBar />
         {
-          this.props.fetchingRestaurants ?
-            <Loading/>
-          :
-            this.props.restaurants.length > 0 ?
-              <ScrollView>
+          this.props.fetchingRestaurants
+            ? <Loading />
+          : this.props.restaurants.length > 0
+              ? <ScrollView>
                 <RestaurantsList
                   restaurants={this.props.restaurants}
                   handleOnPress={this.handleOnPress}
                   />
               </ScrollView>
-            :
-              <Text style={{textAlign: 'center'}}>No matches found...</Text>
+            : <Text style={{textAlign: 'center'}}>No matches found...</Text>
         }
       </Container>
-    );
+    )
   }
 }
 
 const mapStateToProps = (state) => {
   return {
     restaurants: state.restaurants.restaurants,
-    fetchingRestaurants: state.restaurants.fetching,
+    fetchingRestaurants: state.restaurants.fetching
   }
 }
 

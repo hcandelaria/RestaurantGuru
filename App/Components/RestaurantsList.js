@@ -1,25 +1,24 @@
-import React, { Component } from 'react';
-import { Content, Card, CardItem, Body, Icon, Left, Thumbnail, Text } from 'native-base';
+import React, { Component } from 'react'
+import { Content, Card, CardItem, Body, Icon, Left, Thumbnail, Text } from 'native-base'
 
-const placeholder = 'https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png';
+const placeholder = 'https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png'
 
 export default class RestaurantsList extends Component {
-
-  componentDidMount(){
+  componentDidMount () {
 
   }
 
-  render() {
+  render () {
     return (
-        <Content>
-        {   
-          this.props.restaurants.map( (restaurant) =>
+      <Content>
+        {
+          this.props.restaurants.map((restaurant) =>
             <Card
               key={restaurant.restaurant.id}
             >
               <CardItem
                 button
-                onPress={ this.props.handleOnPress.bind(this, restaurant.restaurant) }
+                onPress={this.props.handleOnPress.bind(this, restaurant.restaurant)}
               >
                 <Left>
                   <Thumbnail square large source={{uri: restaurant.restaurant.thumb || placeholder}} />
@@ -27,12 +26,12 @@ export default class RestaurantsList extends Component {
                     <CardItem header>
                       <Text> {restaurant.restaurant.name} </Text>
                     </CardItem>
-                    <Text>{`Average cost: ${restaurant.restaurant.currency}${restaurant.restaurant.average_cost_for_two/2}`} </Text>
+                    <Text>{`Average cost: ${restaurant.restaurant.currency}${restaurant.restaurant.average_cost_for_two / 2}`} </Text>
                     <Text>{`Rating: ${restaurant.restaurant.user_rating.aggregate_rating}/5 `}
                       <Icon
                         small
                         name='star'
-                        style={{color: `${restaurant.restaurant.user_rating.aggregate_rating >= 4.5 ? `blue`: `black` }`}} />
+                        style={{color: `${restaurant.restaurant.user_rating.aggregate_rating >= 4.5 ? `blue` : `black`}`}} />
                     </Text>
                     <Text>{`Cuisines: ${restaurant.restaurant.cuisines} `}</Text>
                   </Body>
@@ -44,7 +43,7 @@ export default class RestaurantsList extends Component {
             </Card>
           )
         }
-        </Content>
-    );
+      </Content>
+    )
   }
 }

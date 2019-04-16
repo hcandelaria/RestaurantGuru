@@ -1,10 +1,8 @@
-import React, { Component } from 'react';
-import { Footer, FooterTab, Button, Text, } from 'native-base';
-
+import React, { Component } from 'react'
+import { Footer, FooterTab, Button, Text } from 'native-base'
 
 export default class BottomNavBar extends Component {
-
-  render() {
+  render () {
     return (
       <Footer>
         <FooterTab>
@@ -22,6 +20,6 @@ export default class BottomNavBar extends Component {
           </Button>
         </FooterTab>
       </Footer>
-    );
+    )
   }
 }

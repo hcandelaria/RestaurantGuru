@@ -10,7 +10,7 @@ export const reducers = combineReducers({
   github: require('./GithubRedux').reducer,
   categories: require('./CategoriesRedux').reducer,
   restaurants: require('./RestaurantsRedux').reducer,
-  cities: require('./CitiesRedux').reducer,
+  cities: require('./CitiesRedux').reducer
 })
 
 export default () => {

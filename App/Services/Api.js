@@ -15,7 +15,7 @@ const create = (baseURL = 'https://developers.zomato.com/api/v2.1/') => {
     // here are some default headers
     headers: {
       'Cache-Control': 'no-cache',
-      'user-key': '98486952e57208d04c9ed1fd6c9bce36',
+      'user-key': '98486952e57208d04c9ed1fd6c9bce36'
     },
     // 10 second timeout...
     timeout: 10000
@@ -36,14 +36,14 @@ const create = (baseURL = 'https://developers.zomato.com/api/v2.1/') => {
   // way at this level.
   //
   const getCategories = () => api.get('categories')
-  const getRestaurants = (payload) => { 
-    return api.get('search?&entity_type=city',{ entity_id: payload.city_id, category: payload.category })
+  const getRestaurants = (payload) => {
+    return api.get('search?&entity_type=city', { entity_id: payload.city_id, category: payload.category })
   }
   const getRestaurantsByQuery = (payload) => {
-    return api.get('search?&entity_type=city',{ entity_id: payload.city_id, category: payload.category, q: payload.searchQuery })
+    return api.get('search?&entity_type=city', { entity_id: payload.city_id, category: payload.category, q: payload.searchQuery })
   }
   const getCities = (payload) => {
-    return api.get('cities?',{ q: payload.query})
+    return api.get('cities?', { q: payload.query})
   }
 //
   // ------

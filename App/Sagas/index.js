@@ -1,13 +1,11 @@
 import { takeLatest, all } from 'redux-saga/effects'
 import API from '../Services/Api'
 
-
 /* ------------- Types ------------- */
 
 import { CategoriesTypes } from '../Redux/CategoriesRedux'
 import { RestaurantsTypes } from '../Redux/RestaurantsRedux'
 import { CitiesTypes } from '../Redux/CitiesRedux'
-
 
 /* ------------- Sagas ------------- */
 
@@ -28,7 +26,7 @@ import { getCities } from './CitiesSagas'
 const api = API.create()
 
 /* ------------- Connect Types To Sagas ------------- */
-export default function* root () {
+export default function * root () {
   yield all([
     takeLatest(CategoriesTypes.GET_CATEGORIES_REQUEST, getAllCategories, api),
     takeLatest(CategoriesTypes.UPDATE_CATEGORY, updateCategory),
@@ -38,6 +36,6 @@ export default function* root () {
 
     takeLatest(RestaurantsTypes.UPDATE_SEARCH_QUERY, updateSearchQuery),
     takeLatest(RestaurantsTypes.GET_RESTAURANTS_REQUEST, getRestaurants, api),
-    takeLatest(RestaurantsTypes.UPDATE_SEARCH_QUERY, watchUpdateSearchQuery, api),
+    takeLatest(RestaurantsTypes.UPDATE_SEARCH_QUERY, watchUpdateSearchQuery, api)
   ])
 }

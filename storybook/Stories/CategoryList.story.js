@@ -6,7 +6,7 @@ import categories from '../../App/Fixtures/categories.json'
 
 const handleOnPress = () => {
   console.log('storybook testing')
-};
+}
 
 storiesOf('CategoryList', module)
   .add('Default', () => (

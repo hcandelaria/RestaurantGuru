@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { Item, Icon, Input, Text } from 'native-base';
-import { ActivityIndicator } from 'react-native';
+import React, { Component } from 'react'
+import { Item, Icon, Input, Text } from 'native-base'
+import { ActivityIndicator } from 'react-native'
 import { connect } from 'react-redux'
 import RestaurantsActions from '../../Redux/RestaurantsRedux'
 
@@ -8,13 +8,13 @@ class RestaurantsView extends Component {
   /**
    * Class constructor.
    */
-  constructor(props, context){
-    super(props,context);
+  constructor (props, context) {
+    super(props, context)
 
     this.handleOnChange = this.handleOnChange.bind(this)
   }
-  
-  handleOnChange(text){
+
+  handleOnChange (text) {
     payload = {
       searchQuery: text,
       category: this.props.category,
@@ -22,20 +22,19 @@ class RestaurantsView extends Component {
     }
     this.props.updateSearchQuery(payload)
   }
-  componentDidMount(){
+  componentDidMount () {
   }
-  render() {
-
+  render () {
     return (
       <Item rounded>
-        <Icon name="ios-search" />
+        <Icon name='ios-search' />
         <Input
-          placeholder="Search"
+          placeholder='Search'
           value={this.props.searchQuery}
           onChangeText={this.handleOnChange.bind(this)}
         />
       </Item>
-    );
+    )
   }
 }
 
@@ -51,7 +50,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return {
     updateSearchQuery: (payload) => {
-      dispatch(RestaurantsActions.updateSearchQuery(payload));
+      dispatch(RestaurantsActions.updateSearchQuery(payload))
     }
   }
 }

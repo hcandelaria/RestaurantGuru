@@ -2,16 +2,15 @@ import React, { Component } from 'react'
 import { ScrollView, Text, Image, View } from 'react-native'
 import { connect } from 'react-redux'
 
-
 // Styles
 import styles from './Styles/LaunchScreenStyles'
-import BottomNavBar from '../Components/BottomNavBar/';
+import BottomNavBar from '../Components/BottomNavBar/'
 
-import CategoriesView from './CategoriesView/';
+import CategoriesView from './CategoriesView/'
 
 class LaunchScreen extends Component {
-  constructor(props, context){
-    super(props,context);
+  constructor (props, context) {
+    super(props, context)
   }
   render () {
     return (
@@ -25,7 +24,7 @@ class LaunchScreen extends Component {
 const mapStateToProps = (state) => {
   return {
     categories: state.categories.categories,
-    restaurants: state.restaurants.restaurants,
+    restaurants: state.restaurants.restaurants
   }
 }
 export default connect(mapStateToProps, null)(LaunchScreen)

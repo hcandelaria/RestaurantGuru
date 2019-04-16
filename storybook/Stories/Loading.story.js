@@ -5,5 +5,5 @@ import Loading from '../../App/Components/Loading'
 
 storiesOf('Loading', module)
   .add('Default', () => (
-    <Loading/>
+    <Loading />
   ))
