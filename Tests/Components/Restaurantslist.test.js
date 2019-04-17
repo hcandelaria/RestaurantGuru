@@ -5,6 +5,11 @@ import renderer from 'react-test-renderer'
 
 import restaurants from '../../App/Fixtures/restaurants.json'
 
+const location = {
+  latitude: 0,
+  longitude: 0
+}
+
 test('RestaurantsList component renders correctly with restaurants and handleOnPress', () => {
   const tree = renderer.create(
     <RestaurantsList

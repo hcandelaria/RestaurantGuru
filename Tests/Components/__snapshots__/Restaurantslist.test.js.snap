@@ -268,8 +268,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Lower East Side | Distance: N/A
+          Location: Lower East Side 
         </Text>
       </View>
     </View>
@@ -489,8 +517,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Spring Street, Lower East Side | Distance: N/A
+          Location: Spring Street, Lower East Side 
         </Text>
       </View>
     </View>
@@ -710,8 +766,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: South Side | Distance: N/A
+          Location: South Side 
         </Text>
       </View>
     </View>
@@ -931,8 +1015,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Gramercy | Distance: N/A
+          Location: Gramercy 
         </Text>
       </View>
     </View>
@@ -1152,8 +1264,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Midtown | Distance: N/A
+          Location: Midtown 
         </Text>
       </View>
     </View>
@@ -1373,8 +1513,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Upper East Side | Distance: N/A
+          Location: Upper East Side 
         </Text>
       </View>
     </View>
@@ -1594,8 +1762,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Midtown | Distance: N/A
+          Location: Midtown 
         </Text>
       </View>
     </View>
@@ -1815,8 +2011,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Lower East Side | Distance: N/A
+          Location: Lower East Side 
         </Text>
       </View>
     </View>
@@ -2036,8 +2260,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Midtown | Distance: N/A
+          Location: Midtown 
         </Text>
       </View>
     </View>
@@ -2257,8 +2509,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Hell's Kitchen | Distance: N/A
+          Location: Hell's Kitchen 
         </Text>
       </View>
     </View>
@@ -2478,8 +2758,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Columbus Circle, Hell's Kitchen | Distance: N/A
+          Location: Columbus Circle, Hell's Kitchen 
         </Text>
       </View>
     </View>
@@ -2699,8 +3007,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Theater District | Distance: N/A
+          Location: Theater District 
         </Text>
       </View>
     </View>
@@ -2920,8 +3256,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Front Street, DUMBO | Distance: N/A
+          Location: Front Street, DUMBO 
         </Text>
       </View>
     </View>
@@ -3141,8 +3505,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Lower East Side | Distance: N/A
+          Location: Lower East Side 
         </Text>
       </View>
     </View>
@@ -3362,8 +3754,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Soho | Distance: N/A
+          Location: Soho 
         </Text>
       </View>
     </View>
@@ -3583,8 +4003,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: Upper West Side | Distance: N/A
+          Location: Upper West Side 
         </Text>
       </View>
     </View>
@@ -3804,8 +4252,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: East 20th Street, Gramercy-Flatiron | Distance: N/A
+          Location: East 20th Street, Gramercy-Flatiron 
         </Text>
       </View>
     </View>
@@ -4025,8 +4501,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: 9th Avenue, Greenwich Village | Distance: N/A
+          Location: 9th Avenue, Greenwich Village 
         </Text>
       </View>
     </View>
@@ -4246,8 +4750,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: West 44th Street, Gramercy | Distance: N/A
+          Location: West 44th Street, Gramercy 
         </Text>
       </View>
     </View>
@@ -4467,8 +4999,36 @@ exports[`RestaurantsList component renders correctly with restaurants and handle
             }
           }
           uppercase={false}
+        />
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
         >
-          Location: East Village | Distance: N/A
+          Location: East Village 
         </Text>
       </View>
     </View>
