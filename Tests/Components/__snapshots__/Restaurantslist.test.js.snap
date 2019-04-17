@@ -1,0 +1,4477 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RestaurantsList component renders correctly with restaurants and handleOnPress 1`] = `
+<RCTScrollView
+  automaticallyAdjustContentInsets={false}
+  contentContainerStyle={
+    Array [
+      Object {
+        "padding": undefined,
+      },
+      undefined,
+    ]
+  }
+  contentInset={
+    Object {
+      "bottom": 0,
+    }
+  }
+  enableAutomaticScroll={true}
+  enableOnAndroid={false}
+  enableResetScrollToCoords={true}
+  extraHeight={75}
+  extraScrollHeight={0}
+  getScrollResponder={[Function]}
+  handleOnScroll={[Function]}
+  keyboardDismissMode="interactive"
+  keyboardOpeningTime={250}
+  keyboardShouldPersistTaps="handled"
+  keyboardSpace={0}
+  onScroll={[Function]}
+  resetKeyboardSpace={[Function]}
+  resetScrollToCoords={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  scrollEventThrottle={1}
+  scrollForExtraHeightOnAndroid={[Function]}
+  scrollIntoView={[Function]}
+  scrollToEnd={[Function]}
+  scrollToFocusedInput={[Function]}
+  scrollToPosition={[Function]}
+  showsVerticalScrollIndicator={true}
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "flex": 1,
+    }
+  }
+  update={[Function]}
+  viewIsInsideTabBar={false}
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/pictures/6/16769546/48ab9901ddf191d13ade07221b43ba93.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Katz's Delicatessen
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $15
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.9/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: Sandwich 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Lower East Side | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/res_imagery/16771079_RESTAURANT_da60c9abb32fa64cddc148a2795ae43c_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Lombardi's Pizza
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $25
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.9/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: Pizza, Italian 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Spring Street, Lower East Side | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/reviews_photos/ea9/ed66f37a5492836605ec71582db68ea9_1441919144.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Peter Luger Steak House
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $75
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.7/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: Steak, American, German, Burger 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: South Side | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/pictures/6/16778226/d6e01455cbbaa3a76ce1702561a60a66.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Ellen's Stardust Diner
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $20
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.4/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "black",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: American 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Gramercy | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/pictures/chains/2/16761402/beda9e63e3230d51c78f589d45e372cf.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Burger Joint
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $12.5
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.8/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: Burger 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Midtown | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/res_imagery/16777320_RESTAURANT_5bc92fcf35438e2404eb918270b2ea2c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Serendipity 3
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $37.5
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.5/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: American, Desserts 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Upper East Side | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/reviews_photos/6b0/bdee283500e51cc7ae84c496257086b0_1532961119.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                The Halal Guys
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $12.5
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.9/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: Middle Eastern, Moroccan 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Midtown | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/pictures/4/16763244/a20ef003de0696f8efc24f8ae29e7a4e.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Clinton Street Baking Company
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $35
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.4/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "black",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: American, Bakery, Desserts 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Lower East Side | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/res_imagery/16779248_RESTAURANT_68d0ceba78997b23ff011573ee029f13_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Tao
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $75
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.4/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "black",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: Asian, Chinese 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Midtown | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/res_imagery/16782050_RESTAURANT_4377a36b355bbd1c3696869dab8c5a3a_c.png?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                5 Napkin Burger
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $42.5
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.9/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: American, Burger, Sushi 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Hell's Kitchen | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/pictures/chains/0/16774980/a639330afe268b94036e9d45a3c74f20.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Per Se
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $300
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.6/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: French 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Columbus Circle, Hell's Kitchen | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/pictures/1/16769241/050188249f15bdaa4c1e32b0fdc2cbe9.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Junior's Restaurant
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $22.5
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.7/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: American, Desserts 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Theater District | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/pictures/chains/2/16767332/fa6705919261e9c27ae46737d56a0faa.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Grimaldi's Pizzeria
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $25
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.6/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: Pizza, Italian 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Front Street, DUMBO | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/pictures/0/16776730/49e617fc653ad30851526dfefc8cef86.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Russ & Daughters
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $12.5
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.8/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: Seafood, Bagels 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Lower East Side | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/pictures/0/16760100/2cee8640b74a1e53fde146c9c90f5213.png?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Balthazar
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $70
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.6/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: French, Seafood, Bakery 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Soho | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/pictures/3/16783153/2a989275f117f6bf1f63919c66cbc2cc.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Shake Shack
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $15
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.9/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: American, Burger 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: Upper West Side | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/pictures/9/16767139/8e3fae144133ba709852d6eec7280397.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Gramercy Tavern
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $100
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.5/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: American 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: East 20th Street, Gramercy-Flatiron | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/pictures/4/16761344/5535198640b49778b948e916d392ebb8.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Buddakan
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $65
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.9/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: Chinese, Fusion, Asian 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: 9th Avenue, Greenwich Village | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/res_imagery/16769089_RESTAURANT_a7a23ba46bdbe76f7ffffc175679ede9_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                John's Pizza of Times Square
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $20
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.7/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: Italian, Pizza 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: West 44th Street, Gramercy | Distance: N/A
+        </Text>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "borderBottomWidth": 0.5,
+          "borderColor": "#ccc",
+          "borderLeftWidth": 0.5,
+          "borderRadius": 2,
+          "borderRightWidth": 0.5,
+          "borderTopWidth": 0.5,
+          "elevation": 3,
+          "flexWrap": "nowrap",
+          "marginBottom": 5,
+          "marginLeft": 2,
+          "marginRight": 2,
+          "marginTop": 5,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 1.5,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "opacity": 1,
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "alignSelf": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            large={true}
+            source={
+              Object {
+                "uri": "https://b.zmtcdn.com/data/pictures/5/16781875/1a72663426d6e780f6363b6b7da6d48b.png?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+              }
+            }
+            square={true}
+            style={
+              Object {
+                "borderRadius": 0,
+                "height": 80,
+                "width": 80,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "alignItems": null,
+                "alignSelf": "center",
+                "flex": 1,
+                "marginLeft": 10,
+              }
+            }
+          >
+            <View
+              header={true}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "#fff",
+                  "borderBottomWidth": null,
+                  "borderRadius": 2,
+                  "flexDirection": "row",
+                  "paddingBottom": 15,
+                  "paddingLeft": 15,
+                  "paddingRight": 15,
+                  "paddingTop": 15,
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontFamily": "System",
+                    "fontSize": 16,
+                    "fontWeight": "600",
+                  }
+                }
+                uppercase={false}
+              >
+                 
+                Ippudo
+                 
+              </Text>
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Average cost: $20
+               
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Rating: 4.9/5 
+              <Text
+                allowFontScaling={false}
+                small={true}
+                style={
+                  Array [
+                    Object {
+                      "color": undefined,
+                      "fontSize": 12,
+                    },
+                    Array [
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "#000",
+                        "fontSize": 30,
+                      },
+                      Object {
+                        "color": "blue",
+                      },
+                    ],
+                    Object {
+                      "fontFamily": "Ionicons",
+                      "fontStyle": "normal",
+                      "fontWeight": "normal",
+                    },
+                    Object {},
+                  ]
+                }
+              >
+                
+              </Text>
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "#000",
+                  "fontFamily": "System",
+                  "fontSize": 16,
+                }
+              }
+              uppercase={false}
+            >
+              Cuisines: Ramen 
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        footer={true}
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#fff",
+            "borderBottomWidth": null,
+            "borderRadius": 2,
+            "flexDirection": "row",
+            "paddingBottom": 10,
+            "paddingLeft": 15,
+            "paddingRight": 15,
+            "paddingTop": 10,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": "600",
+            }
+          }
+          uppercase={false}
+        >
+          Location: East Village | Distance: N/A
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

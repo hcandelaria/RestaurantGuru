@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewsList component renders correctly with reviews 1`] = `
+<RCTScrollView
+  automaticallyAdjustContentInsets={false}
+  contentContainerStyle={
+    Array [
+      Object {
+        "padding": undefined,
+      },
+      undefined,
+    ]
+  }
+  contentInset={
+    Object {
+      "bottom": 0,
+    }
+  }
+  enableAutomaticScroll={true}
+  enableOnAndroid={false}
+  enableResetScrollToCoords={true}
+  extraHeight={75}
+  extraScrollHeight={0}
+  getScrollResponder={[Function]}
+  handleOnScroll={[Function]}
+  keyboardDismissMode="interactive"
+  keyboardOpeningTime={250}
+  keyboardShouldPersistTaps="handled"
+  keyboardSpace={0}
+  onScroll={[Function]}
+  resetKeyboardSpace={[Function]}
+  resetScrollToCoords={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  scrollEventThrottle={1}
+  scrollForExtraHeightOnAndroid={[Function]}
+  scrollIntoView={[Function]}
+  scrollToEnd={[Function]}
+  scrollToFocusedInput={[Function]}
+  scrollToPosition={[Function]}
+  showsVerticalScrollIndicator={true}
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "flex": 1,
+    }
+  }
+  update={[Function]}
+  viewIsInsideTabBar={false}
+>
+  <View>
+    <View
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "flex": 1,
+          "height": 1334,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-start",
+            "alignSelf": "center",
+            "flex": 1,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+            }
+          }
+          uppercase={false}
+        >
+           John Doe: The best latte I've ever had. It tasted a little sweet
+        </Text>
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontFamily": "System",
+              "fontSize": 16,
+            }
+          }
+          uppercase={false}
+        >
+          <Text
+            allowFontScaling={false}
+            small={true}
+            style={
+              Array [
+                Object {
+                  "color": undefined,
+                  "fontSize": 12,
+                },
+                Array [
+                  Object {
+                    "color": "#000",
+                    "fontSize": 30,
+                  },
+                  Object {
+                    "color": "#000",
+                    "fontSize": 30,
+                  },
+                ],
+                Object {
+                  "fontFamily": "Ionicons",
+                  "fontStyle": "normal",
+                  "fontWeight": "normal",
+                },
+                Object {},
+              ]
+            }
+          >
+            
+          </Text>
+           0 5/5
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;
