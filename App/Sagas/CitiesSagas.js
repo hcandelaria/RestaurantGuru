@@ -5,7 +5,7 @@ export function * updateCity_id (action) {
   try {
     if (action.city_id) {
       const { city_id } = action.payload
-      console.log(city_id, 'from citysaga')
+
       yield put(CitiesActions.updateCity_id(city_id))
     }
   } catch (error) {

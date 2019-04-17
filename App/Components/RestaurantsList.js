@@ -3,8 +3,9 @@ import React, { Component } from 'react'
 import { Content, Card, CardItem, Body, Icon, Left, Thumbnail, Text } from 'native-base'
 
 const placeholder = 'https://carepharmaceuticals.com.au/wp-content/uploads/sites/19/2018/02/placeholder-600x400.png'
-
+import CalculateDistances from '../Transforms/CalculateDistances';
 export default class RestaurantsList extends Component {
+  
   componentDidMount () {
 
   }
@@ -39,7 +40,15 @@ export default class RestaurantsList extends Component {
                 </Left>
               </CardItem>
               <CardItem footer>
-                <Text>{`Location: ${restaurant.restaurant.location.locality} | Distance: N/A`}</Text>
+              {
+                this.props.location ? 
+                  <Text>{`Distances: ${CalculateDistances(restaurant.restaurant.location,this.props.location)} miles`}</Text>
+                :
+                <Text></Text>
+              }
+              </CardItem>
+              <CardItem footer>
+                <Text>{`Location: ${restaurant.restaurant.location.locality} `}</Text>
               </CardItem>
             </Card>
           )

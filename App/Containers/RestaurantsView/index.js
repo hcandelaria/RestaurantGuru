@@ -14,15 +14,41 @@ class RestaurantsView extends Component {
    */
   constructor (props, context) {
     super(props, context)
-
+    this.state = {
+      location:{
+        latitude: 0,
+        longitude: 0
+      }
+    }
     this.handleOnPress = this.handleOnPress.bind(this)
+    this.getLocation = this.getLocation.bind(this)
   }
 
   handleOnPress (restaurant) {
-    this.props.navigation.navigate('RestaurantDetailsView', restaurant)
+    const payload = {
+      restaurant: restaurant,
+      location: this.state.location
+    }
+    this.props.navigation.navigate('RestaurantDetailsView', payload)
   }
+
+  getLocation = ()=> navigator.geolocation.getCurrentPosition(
+    position => {
+      this.setState({
+        location: {
+          latitude: position.coords.latitude,
+          longitude: position.coords.longitude,
+        },
+      });
+    },
+    (error) => console.log(error.message),
+    { enableHighAccuracy: true, timeout: 20000, maximumAge: 1000 },
+  )
+
   componentDidMount () {
+    this.getLocation()
   }
+
   render () {
     return (
       <Container>
@@ -34,6 +60,7 @@ class RestaurantsView extends Component {
           : this.props.restaurants.length > 0
               ? <ScrollView>
                 <RestaurantsList
+                  location={this.state.location}
                   restaurants={this.props.restaurants}
                   handleOnPress={this.handleOnPress}
                   />

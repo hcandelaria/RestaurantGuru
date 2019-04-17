@@ -26,7 +26,7 @@ class CategoriesView extends Component {
   }
 
   handleOnPress (category) {
-    if (this.props.city_id.city_id === 0) {
+    if (this.props.city_id === 0) {
       Alert.alert('Please choose a city')
     } else {
       const payload = {

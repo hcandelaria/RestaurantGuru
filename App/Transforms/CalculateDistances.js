@@ -1,19 +1,10 @@
-export default (destination: object, location: object) => {
+export default (destination, location) => {
   let dist = 'N/A'
-  try {
-    navigator.geolocation.getCurrentPosition(
-            position => {
-              const location = {
-                latitude: position.coords.latitude,
-                longitude: position.coords.longitude
-              }
-            },
-            (error) => error
-        )
-  } catch (e) {
-    alert(e.message)
-  }
 
+  if(!destination || !location) {
+    return dist
+  }
+  
   if ((destination.latitude == location.latitude) && (destination.longitude == location.longitude)) {
     return 0
   }
@@ -27,9 +18,12 @@ export default (destination: object, location: object) => {
   if (dist > 1) {
     dist = 1
   }
+
   dist = Math.acos(dist)
   dist = dist * 180 / Math.PI
   dist = dist * 60 * 1.1515
+
+  dist = Math.round( dist * 10 ) / 10;
 
   return dist
 }
